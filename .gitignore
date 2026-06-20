@@ -1,45 +1,10 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
-
-# Dependencies
 node_modules
-*.pnp
-.pnp.js
-
-# Testing
-coverage
-
-# Production
 dist
-dist-ssr
-
-# Misc
-.DS_Store
-*.pem
 .env.local
-.env.*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
+*.log
+.DS_Store
 .idea
-.project
-.classpath
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
+.vscode
 *.sw?
-
-# Firebase
 .firebase/
-.firebaserc
-.env
-
-# TypeScript
 *.tsbuildinfo
